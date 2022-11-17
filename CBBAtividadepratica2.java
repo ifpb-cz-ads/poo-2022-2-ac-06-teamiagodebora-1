@@ -1,12 +1,9 @@
-public class ContaEspecial extends Conta {
-  private double limite;
-@Override
-  public boolean sacar(double valor) {
-    if (valor <=this.limite = this.saldo){
-      this.saldo -= valor;
-      return true;
-    } else {
-      return false;
+public class CBBAtividadePratica2 {
+    public static void main(String[] args) {
+        int[] array = new int[100];
+        for (int y = 0; y < 101; y++) {
+            array[y] = y + 1;
+            System.out.println(array[y]);
+        }
     }
-  }
 }
